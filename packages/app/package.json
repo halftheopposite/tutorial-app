@@ -1,0 +1,15 @@
+{
+  "name": "@tutorial-app/app",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@tutorial-app/common": "^0.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2"
+  }
+}

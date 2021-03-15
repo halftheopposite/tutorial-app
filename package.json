@@ -1,0 +1,23 @@
+{
+  "name": "tutorial-app",
+  "version": "1.0.0",
+  "repository": "git@github.com:halftheopposite/tutorial-app.git",
+  "author": "Aymeric Chauvin",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.9.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "app": "yarn workspace @tutorial-app/app",
+    "common": "yarn workspace @tutorial-app/common",
+    "server": "yarn workspace @tutorial-app/server",
+    "build": "ts-node ./scripts/build.ts",
+    "serve": "node ./packages/server/dist/index.js"
+  }
+}
