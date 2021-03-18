@@ -18,6 +18,7 @@
     "common": "yarn workspace @tutorial-app/common",
     "server": "yarn workspace @tutorial-app/server",
     "build": "ts-node ./scripts/build.ts",
-    "serve": "node ./packages/server/dist/index.js"
+    "serve": "node ./packages/server/dist/index.js",
+    "docker": "docker build . -t tutorial-app"
   }
 }

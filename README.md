@@ -1,6 +1,6 @@
 # tutorial-app
 
-This repository is the result of a three parts tutorial to guide you through setting up a basic web application using Yarn's workspace, TypeScript, esbuild, Express, and React.
+This repository is the result of a 3-part tutorial to guide you through setting up a basic web application using Yarn's workspace, TypeScript, esbuild, Express, and React.
 
 **Links to articles:**
 
@@ -13,4 +13,5 @@ This repository is the result of a three parts tutorial to guide you through set
 A few commands for this project:
 
 - `yarn build` to build the whole application.
-- `yarn serve` to launch an Express server serving a React application.
+- `yarn serve` to launch an Express server serving the React application.
+- `yarn docker` to create a Docker image.

@@ -1,0 +1,16 @@
+README.md
+
+# Git
+.gitignore
+
+# Logs
+yarn-debug.log
+yarn-error.log
+
+# Binaries
+*/*/node_modules
+
+# Builds
+*/*/build
+*/*/dist
+*/*/script.js
