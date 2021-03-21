@@ -39,7 +39,7 @@ export async function buildServer(options: BuildOptions) {
     },
     external: ["express"],
     platform: "node",
-    target: "node10.4",
+    target: "node14.15.5",
     bundle: true,
     minify: env === "production",
     sourcemap: env === "development",
