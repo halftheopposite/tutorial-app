@@ -2,8 +2,6 @@
 
 This repository is the result of a tutorial guiding you through setting up a basic web application using Yarn's workspace, TypeScript, esbuild, Express, and React. It also features containerization with Docker, and Continuous Integrations using GitHub Actions to publish Docker images and deploy to Heroku.
 
-A demo of the application is available here: http://hto-tutorial-app.herokuapp.com/.
-
 **Links to articles:**
 
 1. [Setting up the project (part 1)](https://halftheopposite.dev/post/app-yarn-typescript-esbuild-part-1)
